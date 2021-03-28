@@ -6,6 +6,7 @@ import { GlobalStyle } from "./styles/global";
 import { Dashboard } from "./components/Dashboard";
 import { Header } from "./components/Header";
 
+Modal.setAppElement('#root');
 
 export function App() {
   const [isNewTransactionModalOpen, setIsNewTransactionModalOpen] = useState(false);
