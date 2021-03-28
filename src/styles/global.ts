@@ -9,6 +9,7 @@ export const GlobalStyle = createGlobalStyle`
     --blue: #5429CC;
     --blue-light: #6933FF;
     --red: #E52E4D;
+    --green: #33CC95;
   }
 
   * {
@@ -32,7 +33,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background: var(---background);
+    background: var(--background);
     -webkit-font-smoothing: antialiased;
   }
 
