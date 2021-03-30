@@ -3,7 +3,7 @@ import { useState } from 'react';
 
 import { GlobalStyle } from "./styles/global";
 
-import { TransactionProvider } from './TransactionsContext';
+import { TransactionProvider } from './hooks/UseTransactions';
 import { Dashboard } from "./components/Dashboard";
 import { Header } from "./components/Header";
 import { NewTransactionModal } from './components/NewTransactionModal';
